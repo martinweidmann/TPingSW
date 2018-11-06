@@ -1,0 +1,69 @@
+{
+  "head": {
+    "vars": [ "uri" , "rdfs_label" , "rdfs_comment" , "om_esLlevado" , "om_numeroHermanosCarga" , "om_tipoCarga" , "om_ordenPaso" , "schema_image" , "schema_author" , "images" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "uri": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/PasoProcesional/nuestro-padre-jesus-de-la-salud-en-su-injusta-sentencia" } ,
+        "rdfs_label": { "type": "literal" , "value": "Nuestro Padre Jesús de la Salud en su Injusta Sentencia" } ,
+        "rdfs_comment": { "type": "literal" , "value": "Un paso de misterio que va completando sus componentes año a año" } ,
+        "om_esLlevado": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/Procesion/procesion-de-la-salud" } ,
+        "om_numeroHermanosCarga": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "40" } ,
+        "om_tipoCarga": { "type": "literal" , "value": "Costal" } ,
+        "om_ordenPaso": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "schema_image": { "type": "uri" , "value": "http://opendata.caceres.es/images/semana-santa/nuestro-padre-jesus-de-la-salud-en-su-injusta-sentencia.jpg" } ,
+        "schema_author": { "type": "literal" , "value": "TuSemanaSanta.com" } ,
+        "images": { "type": "literal" , "value": "Centurión Romano (Salud); Claudia Prócula; Jesús de la Salud; Poncio Pilato; Sanedrita" }
+      } ,
+      {
+        "uri": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/PasoProcesional/nuestra-senora-del-buen-fin-y-nazaret" } ,
+        "rdfs_label": { "type": "literal" , "value": "Nuestra Señora del Buen Fin y Nazaret" } ,
+        "rdfs_comment": { "type": "literal" , "value": "La imagen fue realizada a partir de la primitiva mascarilla de la Virgen de los Dolores (Siglo XVIII)" } ,
+        "om_esLlevado": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/Procesion/procesion-del-buen-fin" } ,
+        "om_numeroHermanosCarga": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "32" } ,
+        "om_tipoCarga": { "type": "literal" , "value": "Hombro" } ,
+        "om_ordenPaso": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "schema_image": { "type": "uri" , "value": "http://opendata.caceres.es/images/semana-santa/nuestra-senora-del-buen-fin-y-nazaret.jpg" } ,
+        "schema_author": { "type": "literal" , "value": "Juan María Rufo Jimeno" } ,
+        "images": { "type": "literal" , "value": "Nuestra Señora del Buen Fin y Nazaret" }
+      } ,
+      {
+        "uri": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/PasoProcesional/santisima-virgen-maria-corredentora" } ,
+        "rdfs_label": { "type": "literal" , "value": "Santísima Virgen María Corredentora" } ,
+        "rdfs_comment": { "type": "literal" , "value": "Paso portado solo por mujeres" } ,
+        "om_esLlevado": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/Procesion/procesion-del-humilladero" } ,
+        "om_numeroHermanosCarga": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "36" } ,
+        "om_tipoCarga": { "type": "literal" , "value": "Hombro" } ,
+        "om_ordenPaso": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "3" } ,
+        "schema_image": { "type": "uri" , "value": "http://opendata.caceres.es/images/semana-santa/santisima-virgen-maria-corredentora.jpg" } ,
+        "schema_author": { "type": "literal" , "value": "TuSemanaSanta.com" } ,
+        "images": { "type": "literal" , "value": "Santísima Virgen María Corredentora" }
+      } ,
+      {
+        "uri": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/PasoProcesional/la-veronica" } ,
+        "rdfs_label": { "type": "literal" , "value": "La Verónica" } ,
+        "rdfs_comment": { "type": "literal" , "value": "El grupo de hermanos que portan el paso es uno de los más activos durante todo el año" } ,
+        "om_esLlevado": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/Procesion/procesion-de-la-madrugada" } ,
+        "om_numeroHermanosCarga": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "32" } ,
+        "om_tipoCarga": { "type": "literal" , "value": "Hombro" } ,
+        "om_ordenPaso": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "4" } ,
+        "schema_image": { "type": "uri" , "value": "http://opendata.caceres.es/images/semana-santa/la-veronica.jpg" } ,
+        "schema_author": { "type": "literal" , "value": "Javier Sellers Bermejo" } ,
+        "images": { "type": "literal" , "value": "La Verónica" }
+      } ,
+      {
+        "uri": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/PasoProcesional/nuestra-madre-y-senora-de-gracia-y-esperanza" } ,
+        "rdfs_label": { "type": "literal" , "value": "Nuestra Madre y Señora de Gracia y Esperanza" } ,
+        "rdfs_comment": { "type": "literal" , "value": "La imagen de la Virgen fue sufragada con las aportaciones de los 350 hermanos de la cofradía" } ,
+        "om_esLlevado": { "type": "uri" , "value": "http://opendata.caceres.es/recurso/cultura-ocio/religion/Procesion/procesion-de-la-expiracion" } ,
+        "om_numeroHermanosCarga": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "34" } ,
+        "om_tipoCarga": { "type": "literal" , "value": "Hombro" } ,
+        "om_ordenPaso": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "schema_image": { "type": "uri" , "value": "http://opendata.caceres.es/images/semana-santa/nuestra-madre-y-senora-de-gracia-y-esperanza.jpg" } ,
+        "schema_author": { "type": "literal" , "value": "Javier Sellers Bermejo" } ,
+        "images": { "type": "literal" , "value": "Nuestra Madre y Señora de Gracia y Esperanza" }
+      } 
+    ]
+  }
+}
