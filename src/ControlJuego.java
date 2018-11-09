@@ -36,11 +36,11 @@ public class ControlJuego {
 	 */
 	public void inicializarPartida(){
 
-		//TODO: Repartir minas e inicializar puntación. Si hubiese un tablero anterior, lo pongo todo a cero para inicializarlo.
+		//TODO: Repartir minas e inicializar puntaciï¿½n. Si hubiese un tablero anterior, lo pongo todo a cero para inicializarlo.
 		
 		
 		
-		//Al final del método hay que guardar el número de minas para las casillas que no son mina:
+		//Al final del mï¿½todo hay que guardar el nï¿½mero de minas para las casillas que no son mina:
 		for (int i = 0; i < tablero.length; i++) {
 			for (int j = 0; j < tablero[i].length; j++) {
 				if (tablero[i][j] != MINA){
@@ -70,7 +70,7 @@ public class ControlJuego {
 	 * @return : Verdadero si no ha explotado una mina. Falso en caso contrario.
 	 */
 	public boolean abrirCasilla(int i, int j){
-
+		return true;
 	}
 	
 	
