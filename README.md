@@ -1,24 +1,22 @@
-BASE PARA EL BUSCAMINAS: (Nombre alumno)
-=========================
 
-En este programa se encuentra la base para el Buscaminas de Desarrollo de intefaces (DAM2).
+2b) Tendriamos que crear una carpeta llamada .gitignore, y dentro de la carpeta poner la ruta de los archivos que queremos ignorar
+luego ejecutar los comandos de add, commit y push de gitignore
 
-Pasos
------
+2e) Para seguir GitFlow lo que hacemos es realizar un merge con la rama productiva en este caso Master, y ademas para que los cambios esten tambien en la rama de desarrollo
+hacemos un merge con develop
 
-1. Descárgate el cliente de github si no lo tienes en tu equipo. Créate una cuenta y loguéate.
+2f) Para poder corregirlo se realiza una rama llamada hotfix la cual se encarga de realizar las correcciones a los distingos errores menores que tenga el release ya en la rama
+productiva. Ademas para terminar de introducir el arreglo realizamos un merge con la rama master y la rama develop
 
-2. Haz un fork de este repositorio. Un Fork se utiliza para modificar el trabajo de otras personas sin que trabajemos sobre su proyecto. En este caso mi repositorio es público, cualquiera puede acceder a él y crearse un repositorio a partir del mismo. El único que puede modificar este repositorio sin crearse una réplica (un fork) soy yo.
-
-3. Una vez has creado un fork de tu repositorio, importa ese repositorio en local para tu máquina. Utiliza el cliente de GitHub. Sobre esa copia será sobre la que trabajes
-
-4. Importa el proyecto en eclipse, pero no olvides que debes utilizar los archivos desde el directorio del repositorio, ¡no los copies a tu workspace!
-
-5. Implementa el buscaminas. Cada día que vayas haciendo cambios, mantén el repositorio, así podrás llevar un seguimiento.
+2j) Lo que hacemos para seguir GitFlow al realizar un nuevo feature es mergear la rama de la feature realizada con la rama de develop, de la cual se crea una rama de release nueva
+para presentar las nuevas funcionalidades. Por ultimo una vez controlado y revisado, se mergean las ramas de release con la rama productiva y la de desarrollo
 
 
+3a)El Readme es importante para poder dar indicaciones necesarias para cuando alguien inicializa el repositorio. En este caso, lo utilizamos para realizar las respuestas de desarrollo
+que pedia el enunciado.
 
-Licencia
---------
+3b)Para entender los cambios realizados en una pull request, es util pedir un titulo claro, que describa en breves palabras la funcionalidad o modificacion al sistema.
+Ademas luego se debera escribir una descripcion mas detallada de los cambios realizados, si es que esta relacionada con un issue u bug anterior y como afectaria esto al sistema.
 
-La licencia de este repositorio y todo su contenido es [GNU General Public License v.3.0](https://es.wikipedia.org/wiki/Licencia_p%C3%BAblica_general_de_GNU) 
+Las herramientas que nos da Github en este caso son, el control del codigo, de esta manera podemos revisar previamente antes de aceptar un pull request las lineas de codigo que fueron
+modificada, ademas de una separacion por branches la cual indica quienes estuvieron trabajando en la misma para tener un control de las personas que realizan los cambios.
